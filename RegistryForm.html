@@ -12,9 +12,9 @@
     <h1>Fill The Form Below</h1>
     <form action="">
         <div>
-        <label for="first">First Name</label>
+        <label for="first">First Name</label required>
         <input type="text" id="first">
-        <label for="last">Last Name</label>
+        <label for="last">Last Name</label required>
         <input type="text" id="last">
     </div>
     <p>Select a Career</p>
@@ -29,8 +29,24 @@
     <div>
     <input type="radio" name="career" id="Gym Instructor">
         <label for="Gym Instructor">Gym Instructor</label>
-    </div>    
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+    </div>
+    <div>
+        <label for="division">Select Age Group</label>
+        <select name="divison" id="division">
+            <option value="kids">Under 18</option>
+            <option value="young adults">18-30</option>
+            <option value="adults">30-50</option>
+            <option value="seniors">50+</option>
+        </select>
+    </div>
     </form>
+    <button>Register</button>
 
 
 </body>
