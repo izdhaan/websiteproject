@@ -13,24 +13,32 @@
     <form action="/online">
         <p>
 <label for="username">Enter a Username:</label>        
-<input type="username" placeholder="username" id="username">
+<input type="username" placeholder="username" id="username" name="username">
 </p>
 
 <p>
 <label for="passowrd">Enter a Password:</label>
-<input type="password" placeholder="password" id="password">
+<input type="password" placeholder="password" id="password" name="password">
 </p>
 
 <p>
 <label for="color">Select a color:</label>
-<input type="color" placeholder="color" id="color">
+<input type="color" placeholder="color" id="color" name="color">
 </p>
 
 <p>
 <label for="time">Time:</label>    
-<input type="time">
+<input type="time" placeholder="time" id="time" name="time">
+
+<button type="button">Submit</button>
 </p>
-<button>Submit</button>
+
+<h3>Search Google</h3>
+<form action="https://www.google.com/search">
+    <input type="text" name="q">
+    <button>Search google</button>
     </form>
+  
+
 </body>
 </html>
