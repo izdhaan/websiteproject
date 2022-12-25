@@ -7,13 +7,30 @@
     <title>Forms</title>
 </head>
 <body>
+    <a href="index.html">Go back</a>
     <h1>Forms</h1>
 
     <form action="/online">
-<input type="text" placeholder="username">
-<input type="password" placeholder="password">
-<input type="color">
+        <p>
+<label for="username">Enter a Username:</label>        
+<input type="username" placeholder="username" id="username">
+</p>
+
+<p>
+<label for="passowrd">Enter a Password:</label>
+<input type="password" placeholder="password" id="password">
+</p>
+
+<p>
+<label for="color">Select a color:</label>
+<input type="color" placeholder="color" id="color">
+</p>
+
+<p>
+<label for="time">Time:</label>    
 <input type="time">
+</p>
+<button>Submit</button>
     </form>
 </body>
 </html>
