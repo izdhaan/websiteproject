@@ -6,10 +6,12 @@ h1 {
 
 h2 {
     color: rgb(48, 87, 149);
+    text-align: center;
 }
 
 h3 {
     color: green;
+    text-align: center;
 }
 
 body {
@@ -30,4 +32,13 @@ p {
 
 h2::first-letter {
     font-size: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+}
+
+a {
+    text-align: center;
 }
