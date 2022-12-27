@@ -1,0 +1,17 @@
+section {
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: azure;
+}
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(72, 171, 83);
+}
