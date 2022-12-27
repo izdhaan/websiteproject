@@ -9,10 +9,7 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    color: green;
-    text-align: center;
-}
+
 
 body {
     background-color: rgb(76, 193, 154);
@@ -24,6 +21,8 @@ h1 {
     letter-spacing: 5px;
     font-size: 50px;
     font-family: Segoe UI, Futura;
+    
+    
 }
 
 p {
@@ -39,6 +38,11 @@ p {
     font-size: larger;
 }
 
-a {
-    text-align: center;
+div {
+    line-height: 5;
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+
 }
+
