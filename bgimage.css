@@ -1,0 +1,12 @@
+section {
+    width: 80%;
+    height: 800px;
+    background-image: url(https://assets.euromoneydigital.com/a5/90/0f1167c248d59035af5b47af3fc6/gaming-virtual-blue-adobestock.jpg);
+    background-size: contain;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}
