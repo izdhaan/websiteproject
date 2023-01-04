@@ -53,7 +53,7 @@ html {
 }
 
 body {
-    background-color: green;
+    background-color: rgb(38, 230, 195);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ body {
 
 .pricing-features {
     margin: 50px 0 25px;
-    color: rgb(50, 166, 143);
+    color: rgb(36, 205, 171);
 }
 
 .pricing-features-item {
@@ -98,15 +98,15 @@ body {
     font-size: 12px;
     line-height: 1.5;
     padding: 15px 0;
-    border-top: 1px solid #549fe1;
+    border-top: 1px solid #26e7e1;
 }
 
 .pricing-features-item:last-child{
-    border-bottom: 1px solid #549fe1;
+    border-bottom: 1px solid #26e7e1;
 }
 
 .pricing-price {
-    color: #016ff9;
+    color: #26e7e1;
     display: block;
     font-size: 32px;
     font-weight: 700;
@@ -115,7 +115,7 @@ body {
 .pricing-button {
     border: 1px solid #9dd1ff;
     border-radius: 10px;
-    color: rgb(0, 60, 255);
+    color: #26e7e1;
     display: inline-block;
     padding: 15px 35px;
     text-decoration: none;
